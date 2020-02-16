@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, Platform, TextInput, KeyboardAvoidingView } from 'react-native';
+import SearchInput from './components/SearchInput';
 
 export default class App extends React.Component {
   render() {
